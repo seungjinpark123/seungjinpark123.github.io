@@ -1,0 +1,105 @@
+.App {
+  text-align: left;
+}
+
+
+.Main-logo{
+  background-image: url('airbnb.png');
+  display: inline-block;
+  width:120px;
+  height:auto;
+  text-align: left;
+
+}
+
+h2{
+  margin-top: 20px;
+  padding:20px;
+  text-align: left;
+}
+
+.Button
+{
+  transform: scale(0.5);
+  
+}
+.Body-Box
+{
+  margin-left: 5px;
+  font-size: calc(5px + 2vmin);
+}
+.Main-Box
+{
+  border-bottom: 1px solid #F7F7F7;
+}
+.modal
+{
+  margin-top: 20px;
+  padding:20px;
+  font-size: 20px;
+  text-align: left;
+  background: #eee;
+}
+
+.list{
+  font-size: 20px;
+  border-bottom: 1px solid #F7F7F7;
+  margin-top: 20px;
+  padding:20px;
+  text-align: left;
+}
+
+.Small-Box
+{
+  float: left;
+  grid-template: auto / repeat(3,minmax(0,1fr));
+  gap: 32px 16px;
+}
+.Head-Box
+{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding:20px;
+  text-align: left;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Profile{
+  margin-top: 20px;
+  padding:20px;
+  font-size: 20px;
+  text-align: left;
+  background: #eee;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
